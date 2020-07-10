@@ -15,7 +15,7 @@ def try_load_csv(csvname, usecols=None):
         return pd.read_csv(os.path.join(BASEPATH, csvname), usecols=usecols)
     except FileNotFoundError:
         raise FileNotFoundError(
-            'make sure you download The Movie Dataset from Kaggle')
+            'make sure you download The Movies Dataset from Kaggle')
 
 
 def load_meta(usecols=None):
