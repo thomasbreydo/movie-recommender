@@ -1,8 +1,11 @@
 # Project-related
-*/dataset/*.csv
+**/dataset/*.csv
 apikeys.py
-# ignore preference files
-rate-movies/thomas*
+
+# ignore custom files
+**/*preferences.csv
+**/*_models/
+**/movies_for_*_to_rate.csv
 
 # macOS
 .DS_Store
